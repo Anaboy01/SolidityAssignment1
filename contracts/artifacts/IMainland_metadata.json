@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_item",
+						"type": "string"
+					}
+				],
+				"name": "getBasePrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_item",
+						"type": "string"
+					}
+				],
+				"name": "getIkoroduPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_item",
+						"type": "string"
+					}
+				],
+				"name": "getMainlandPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/VI.sol": "IMainland"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/VI.sol": {
+			"keccak256": "0xa893a87cd193043eaba4a7400a57edb8e96cab0528be58d6ae4c021e46dc565f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1dd17a35d52385bd804bdf1e0758ff375e75abeeef9a63c150b79cc80a917d38",
+				"dweb:/ipfs/QmXXChqyheCvrKAvbWP8eHTJJovbp1LHtCSW3y4K8rwaGR"
+			]
+		}
+	},
+	"version": 1
+}

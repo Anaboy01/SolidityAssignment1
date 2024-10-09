@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ikorodu.sol": "IBas"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ikorodu.sol": {
+			"keccak256": "0xbdd74d65add22f3539673d2fd705cc35f72234c3692eaa196ae0604a87607c66",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7611d36e0780e78fa14dd97874e8c527baa793fd5e835e3156075717a048f24c",
+				"dweb:/ipfs/QmegV9vpthyNVDtcKRZFccZ7yvzen2aTMMUEMsCuQf4V6Q"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_item",
+						"type": "string"
+					}
+				],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ikorodu.sol": "IBaseStore"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ikorodu.sol": {
+			"keccak256": "0x1f776dce9aadfd14feda61c213a5bf947b8ce85a8cdce83c11f059e482589dfc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://defd450dc6b4f05b7b265cd2c45ac4b356ebfb04bcee8ad6c05f5da51ff9797e",
+				"dweb:/ipfs/QmQZkHUXUapyJ2QczkovoFSqVH41S6NGhwkvmNW7vcVjkL"
+			]
+		}
+	},
+	"version": 1
+}
